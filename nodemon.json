@@ -1,0 +1,7 @@
+{
+  "watch": ["src"],
+  "ignore": ["src/**/*.test.ts"],
+  "ext": "ts,mjs,js,json,graphql",
+  "exec": "tsc && node --enable-source-maps -r dotenv/config ./build/app.js",
+  "legacyWatch": true
+}
